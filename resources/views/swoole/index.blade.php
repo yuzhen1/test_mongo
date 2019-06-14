@@ -9,7 +9,7 @@
 </head>
 <body>
 <div>
-    <input type="text">
+    <input type="text" class="send_value">
     <button value="send" id="button">send</button>
 </div>
 
@@ -42,7 +42,10 @@
         var str = d.data;
         var arr = JSON.parse(str);
 //        console.log(arr[0]);
-        $("#content").append(arr.text).append("<br>");
+            $("#content").append(arr.text).append("<br>");
+            $(".send_value").val('');
+
+
     };
     console.log(ws);
 
