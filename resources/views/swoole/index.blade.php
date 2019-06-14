@@ -20,7 +20,7 @@
 <script src="/jquery-3.1.1.min.js"></script>
 <script>
 
-    var ws_server ='ws://swoole.1809a.com:9502';
+    var ws_server ='ws://swoole.1809a.zyzyz.top:9502';
     var ws =new WebSocket(ws_server);
 //    websock 成功时触发事件
     ws.onopen=function(){
